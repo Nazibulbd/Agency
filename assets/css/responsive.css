@@ -179,6 +179,18 @@
     .inner_17 .box_2{
       margin-top: 70px;
     }
+    .content_18{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content_18 text_title_18{}
+    .inner_18{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
 }
 @media screen and (max-width: 764px) {
