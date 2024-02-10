@@ -2522,6 +2522,8 @@ margin: 15px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 6px;
+  margin-bottom: 70px;
 }
 .content_21 h6{
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
@@ -2543,4 +2545,219 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 200% */
+}
+
+.inner_22{
+  margin: 70px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.inner_22 .left_box_22{}
+.inner_22 .left_box_22 h5{
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 3px;
+color: #EF6D58;
+}
+.inner_22 .left_box_22 h2{
+font-size: 56px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: -1px;
+width: 340px
+}
+.inner_22 .right_box_22{}
+.inner_22 .right_box button{
+width: 170px;
+height: 48px;
+background-color: #fff;
+margin: 110px 0px 0px 0px;
+border-radius: 8px;
+}
+
+.inner_23{
+  display: flex;
+  justify-content: space-between;
+}
+.inner_23 .box{
+  width: 350px;
+}
+.inner_23 .box img{
+  width: 350px;
+  margin-bottom: 20px;
+}
+.inner_23 .box .name{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+color: #391400;
+}
+.inner_23 .box h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+color: #391400;
+margin: 15px 0px;
+width: 300px;
+}
+.inner_23 .box .date{
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+color: #391400A3;
+}
+
+.inner_24{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0px;
+}
+.inner_24 h3{
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0px;
+width: 233px;
+height: 48px;
+color: #391400;
+}
+.inner_24 input{
+width: 315px;
+height: 46px;
+padding-left: 20px;
+font-size: 20px;
+border-radius: 5px;
+margin-left: 345px;
+border: 1px solid #F3D1BF
+}
+.inner_24 span{
+align-items: center;
+font-size: 14px;
+font-weight: 900;
+line-height: 14px;
+letter-spacing: 0px;
+width: 150px;
+height: 46px;
+color: #391400;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+
+#section_25{
+  display: flex;
+  align-items: center;
+  margin: 150px 0px;
+}
+#section_25 img{
+  position: absolute;
+}
+.inner_25{
+  display: flex;
+  align-items: center;
+}
+.inner_25 .content_25{
+  margin: 60px 0px;
+  background-color: #fff;
+  width: 400px;
+  padding: 42px;
+  border-radius: 5px;
+  position: relative;
+}
+.inner_25 .content_25 h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+width: 153px;
+height: 32px;
+
+}
+.inner_25 .content_25 .email{
+width: 315px;
+height: 46px;
+padding-left: 20px;
+font-size: 20px;
+border-radius: 5px;
+border: 1px solid #F3D1BF;
+color: #391400A3;
+background: unset;
+margin: 10px 0px;
+}
+.inner_25 .content_25 .Subject{
+  width: 315px;
+  height: 46px;
+  padding-left: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #F3D1BF;
+  color: #391400A3;
+  background: unset;
+  margin-bottom: 10px;
+}
+.inner_25 .content_25 .Message{
+  font-size: 20px;
+  padding: 20px 60px 60px 10px;
+  color: #391400A3;
+  border: 1px solid #F3D1BF;
+  border-radius: 5px;
+  background: unset;
+  margin-bottom: 10px;
+}
+.inner_25 .content_25 button{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 94px;
+  height: 14px;
+  width: 154px;
+  padding: 20px 10px;
+  background-color: #EF6C57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 20px 0px 15px 160px;
+}
+.inner_25 span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #EF6C57;
+  color: white;
+  position: relative;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+#section_25_2{
+  background: url(./../images/section_25_bg_img.svg);
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#section_25_2 span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #EF6C57;
+  color: white;
+  border-radius: 50%;
 }
