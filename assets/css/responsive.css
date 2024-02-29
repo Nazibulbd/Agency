@@ -312,6 +312,28 @@ margin-top: 60px;
     align-items: center;
   }
 
+  .inner_26{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner_27{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner_29{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner_29 .text_1{
+    width: 200px;
+    margin: 20px 0px;
+  }
+
 }
 @media screen and (max-width: 764px) {
 
